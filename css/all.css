@@ -1,0 +1,336 @@
+/* ==========CSS RESET START==========  */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.wrap {
+    max-width: 1025px;
+    margin: 0 auto;
+}
+
+/*========= CSS RESET END=======*/
+
+/*========= HEADER START======*/
+
+.header {
+    background: url(../img/Hero.png);
+    height: 380px;
+    font-family: PingFangTC-Regular;
+}
+
+.title {
+    padding: 89px 358.5px 96px 398.5px;
+    color: white;
+    font-size: 40px;
+}
+
+.cityArea {
+    margin: -20px 295.5px 107px 300.5px;
+}
+
+.cityArea select {
+    width: 450px;
+    height: 48px;
+    background-color: rgb(255, 255, 255, 0.7);
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 3px;
+    border-radius: 3px;
+    border: 3px solid #ffffff;
+}
+
+.hotZone {
+    width: 800px;
+    height: 112px;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.4);
+    top: 352px;
+    margin-left: 112px;
+    background-color: white;
+    position: absolute;
+    border-radius: 5px;
+}
+
+.hotZone h2 {
+    font-weight: bold;
+    font-family: AppleSystemUIFont;
+    color: black;
+    font-size: 25px;
+    margin: 20px 0 0 26px;
+}
+
+input.btn {
+    width: 130px;
+    height: 42px;
+    margin: 20px 0 0 30px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 25px;
+    text-align: center;
+}
+
+.dash-line {
+    color: #559AC8;
+    margin-top: 280px;
+    width: 800px;
+    height: 2px;
+    border-bottom: 3px dashed #559ac8;
+}
+
+.nowZone {
+    font-size: 36px;
+    font-family: SFNSDisplay;
+    margin-top: 234px;
+    margin-left: 458px;
+}
+
+.place {
+    width: 464px;
+    height: 273px;
+    display: inline-block;
+    position: relative;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+
+img.photo {
+    width: 464px;
+    height: 155px;
+}
+
+.name {
+    font-size: 24px;
+    top: 117px;
+    margin-left: 22px;
+    position: absolute;
+    color: white;
+}
+
+.zone {
+    font-size: 16px;
+    top: 125px;
+    right: 20px;
+    position: absolute;
+    color: white;
+}
+
+.opentime {
+    margin-top: 16px;
+    left: 20px;
+    font-size: 16px;
+    position: absolute;
+    img {
+        width: 12px;
+        height: 12px;
+    }
+}
+
+.add {
+    margin-top: 46px;
+    left: 20px;
+    font-size: 16px;
+    position: absolute;
+    img {
+        width: 12px;
+        height: 12px;
+    }
+}
+
+.tel {
+    margin-top: 76px;
+    left: 22px;
+    font-size: 16px;
+    position: absolute;
+    img {
+        width: 12px;
+        height: 12px;
+    }
+}
+
+.ticketinfo {
+    margin-top: 78px;
+    right: 56px;
+    font-size: 16px;
+    position: absolute;
+    img {
+        width: 13px;
+        margin-right: 5px;
+    }
+}
+
+.add,
+.tel,
+.ticketinfo {
+    line-height: 40px;
+}
+
+.arrow {
+    position: absolute;
+    right: 348px;
+}
+
+img.goTop {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    bottom: 10px;
+}
+
+.footer {
+    width: 1024px;
+    height: 90px;
+    background-color: #559AC8;
+}
+
+.endInfo1 {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: AppleSystemUIFont;
+    padding-top: 30px;
+    margin-right: 25px;
+    text-align: center;
+}
+
+.endInfo2 {
+    color: #FFD366;
+    font-size: 14px;
+    font-family: AppleSystemUIFont;
+    padding-top: 20px;
+    margin-right: 25px;
+    text-align: center;
+}
+
+#map {
+    height: 500px;
+    width: 1024px;
+    top: 200px;
+}

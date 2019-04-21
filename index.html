@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="chiang">
+    <meta name- "description" content="jquery作業">
+    <meta name="keyword" content="jquery, html, css">
+    <meta property="og:title" content="FB的標題">
+    <meta property="og:description" content="FB的描述">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="FB上的網址">
+    <meta property="og:image" content="FB的圖片">
+
+    <link rel="SHORTCUT ICON" href="./img/windows_button_keyboard_type-256.png" />
+
+
+
+
+    <link rel="stylesheet" href="./css/all.css">
+
+    <title>JS_Final_HW</title>
+</head>
+
+<body>
+    <div class="wrap">
+
+        <div class="header">
+
+            <div class="title">
+                <h1>高雄旅遊資訊</h1>
+            </div>
+
+            <div class="cityArea">
+                <select id="ZoneId">
+                    <option selected>--請選擇行政區--</option>
+                    <option value="苓雅區">苓雅區</option>
+                    <option value="鹽埕區">鹽埕區</option>
+                    <option value="三民區">三民區</option>
+                    <option value="新興區">新興區</option>
+                    <option value="前鎮區">前鎮區</option>
+                    <option value="楠梓區">楠梓區</option>
+                    <option value="烏松區">烏松區</option>
+                    <option value="鼓山區">鼓山區</option>
+                    <option value="橋頭區">橋頭區</option>
+                    <option value="鳳山區">鳳山區</option>
+                    <option value="旗津區">旗津區</option>
+                    <option value="小港區">小港區</option>
+                    <option value="左營區">左營區</option>
+                    <option value="美濃區">美濃區</option>
+                    <option value="林園區">林園區</option>
+                    <option value="大樹區">大樹區</option>
+                    <option value="岡山區">岡山區</option>
+                    <option value="內門區">內門區</option>
+
+                </select>
+
+            </div>
+            <div class="hotZone">
+                <h2>熱門行政區</h2>
+                <input type="button" class="btn hotZone1" name="苓雅區" value="苓雅區" style="background-color: #8A82CC ">
+                <input type="button" class="btn hotZone2" name="三民區" value="三民區" style="background-color:#FFA782  ">
+                <input type="button" class="btn hotZone3" name="新興區" value="新興區" style="background-color:#F5D005 ">
+                <input type="button" class="btn hotZone4" name="前鎮區" value="前鎮區" style="background-color:#559AC8 ">
+
+            </div>
+            <hr class="dash-line">
+
+        </div>
+        <div id="map"></div>
+
+
+        <div class="content">
+
+            <!-- 所選行政區 -->
+
+
+
+
+            <div class=" zoneNow ">
+                <h2 class="nowZone " style="color: #8A82CC "></h2>
+
+                <ul class="list ">
+
+
+
+                </ul>
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+        </div>
+
+
+
+
+        <div class="arrow">
+            <a href="#" alt="固定箭頭">
+                <img src="./img/btn_goTop.png" alt="" class="goTop">
+            </a>
+        </div>
+
+
+
+        <div class="footer">
+
+            <h4 class="endInfo1">高雄旅遊資訊網</h4>
+            <p class="endInfo2">資料來源：高雄市政府</p>
+        </div>
+
+
+
+    </div>
+
+
+
+
+    <script src="js/all.js "></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxRq6zNZ_Ml-dp6irxqBWj9dJtDOAJt9M" async defer></script>
+</body>
+
+</html>
